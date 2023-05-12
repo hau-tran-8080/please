@@ -25,5 +25,5 @@ jobs:
           git checkout dev
           
           git branch -a
-          git merge main
+          git merge main --allow-unrelated-histories
           git push
