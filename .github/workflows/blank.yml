@@ -35,4 +35,5 @@ jobs:
           git fetch
           git checkout dev
           git pull --tags origin main
+          git rebase dev
           git push
