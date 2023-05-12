@@ -24,7 +24,6 @@ jobs:
           git fetch
           git checkout dev
           
-          git pull --tags origin main
-          git rebase --skip
-          git pull --tags origin dev
+          git branch -a
+          git merge main
           git push
